@@ -12,6 +12,7 @@ public class AppException extends RuntimeException {
     private Object data;
     private String solution;
 
+    // dung de 
     public AppException(HttpStatus statusCode, String message) {
         super(message);
         this.statusCode = statusCode;
